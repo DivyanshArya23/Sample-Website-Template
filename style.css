@@ -1,0 +1,177 @@
+.bg-grey {
+    background-color: #f8f8f8;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.nav-link-selected {
+    color: white !important;
+}
+
+.nav-item.active {
+    background-color: #12A3D6;
+    position: relative;
+}
+
+.nav-item.active::after {
+    overflow: hidden;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 6px solid transparent;
+    border-bottom: 8px solid #0080B7;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: 12%;
+    left: 41%;
+}
+
+.nav-item.active::before {
+    overflow: hidden;
+    content: '';
+    width: 100%;
+    height: 0px;
+    border-top: 10px solid #0080B7;;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin-top: -10px;
+}
+
+.nav-link {
+    text-align: center;
+    height: 100%;
+}
+
+.nav-link > span:hover{
+    border-radius: 5px;
+    background-color: #F98561;
+    color: white;
+    transition-duration:0.20s ;
+}
+
+.nav-item {
+    height: 75px;
+}
+
+.carouselbtn {
+    height: max-content;
+    width: max-content;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.carouselbtn1:hover {
+    background-color: #ff6435;
+    color: white;
+}
+.carouselbtn1 {
+    background-color: #F98561;
+    font-size: 25px;
+}
+.learnbtn {
+    position: absolute;
+    z-index: 20;
+    font-size: 25px;
+    bottom: 35%;
+}
+
+.servicebtn {
+    z-index: 20;
+    top: -9pt;
+}
+
+@media screen and (max-width:576px) {
+    .carouselbtn2{
+        font-size: 0.5em;
+    }
+    .learnbtn{
+        bottom: 20%;
+    }
+    .carouselbtn1 {
+        font-size: 0.5em ;
+    }    
+}
+
+.carousel-indicators {
+    /* border: 2px solid red; */
+    left: 60%;
+    margin-right: 8%;
+    bottom: 0%;
+    margin-bottom: 1%;
+}
+
+.card-text {
+    font-size: 0.75rem;
+}
+
+.background-navy {
+    background-color: #2e3e4f;
+}
+
+.font-kreon {
+    font-family: 'Kreon', serif;
+}
+
+.font-bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.color-orange {
+    color: #F98561;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.portfolio-h {
+    font-size: 2rem;
+}
+
+.card-text {
+    justify-content: center !important;
+}
+.carousel-indicators > li {
+    background-color: #ADADAD;
+    border: 0px;
+    border-radius: 50%;
+    height: 10px;
+    box-sizing: border-box;
+    width: 10px;
+}
+
+.carousel-indicators >li.active{
+    background-color: #2190C1;
+    border: 1.5px solid #F98561;
+}
+
+.photo-hover {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    background-color:#bebebe ;
+    box-sizing: border-box;
+    border: 8px solid white;
+}
+
+.photo-card {
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.photo-container:hover .photo-card{
+    opacity: 0;
+}
+
+.photo-container:hover .photo-hover{
+    opacity: 1;
+}
