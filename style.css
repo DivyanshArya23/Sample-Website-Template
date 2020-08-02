@@ -6,6 +6,10 @@ body {
     background-color: #f8f8f8;
 }
 
+.navbar-brand {
+    margin-left: 18%;
+}
+
 .nav-link-selected {
     color: white !important;
 }
@@ -27,6 +31,7 @@ body {
     position: absolute;
     bottom: 12%;
     left: 41%;
+
 }
 
 .nav-item.active::before {
@@ -95,6 +100,11 @@ body {
     .carouselbtn1 {
         font-size: 0.5em ;
     }    
+}
+@media screen and (max-width:991px){
+    .nav-item.active::after {
+        left: 49%;
+    }
 }
 
 .carousel-indicators {

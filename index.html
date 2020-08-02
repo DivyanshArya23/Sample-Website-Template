@@ -13,14 +13,14 @@
   <!-- ////////////////// -->
   <!-- NAVBAR -->
   <!-- ////////////////// -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light  p-0 font-kreon">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 font-kreon">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     
+    <a class="navbar-brand font-weight-bold" href="#"><img src="images/logo.png" alt=""> YourLogo</a>
     <!-- NavBar Links -->
     <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
-      <a class="navbar-brand font-weight-bold mr-5" href="#"><img src="images/logo.png" alt=""> YourLogo</a>
       <ul class="navbar-nav">
         <li class="nav-item mx-1 active">
           <a class="nav-link flex-column d-flex justify-content-center p-3 nav-link-selected" href="#">
